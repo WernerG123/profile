@@ -1,0 +1,35 @@
+.header {
+    background-color: darkslategrey;
+    color: white;
+    border-bottom: 4px solid lightgray;
+    height: 10vh !important;
+}
+
+.footer {
+    background-color: darkslategrey;
+    color: white;
+    border-top: 4px solid lightgray;
+    height: 15% !important;
+    position: absolute;
+    bottom: 0px !important;
+    width: 100%;
+}
+
+.profile-circle {
+    border-radius: 50%;
+    border: 4px solid grey;
+    height: 8em;
+    width: 8em;
+    box-shadow: 0px 0px 4px 4px lightgray;
+    margin: 8px;
+}
+
+.profile-img {
+    border-radius: 50%;
+    height: 8em;
+}
+
+.media {
+    height: 2em;
+    margin: 8px;
+}
