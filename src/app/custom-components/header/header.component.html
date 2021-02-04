@@ -1,0 +1,23 @@
+<div class="header" fxFlex="100" fxLayout="row">
+  <div fxFlex="33"  fxLayoutAlign="start center">
+    <!-- <button mat-mini-fab color="accent" [matMenuTriggerFor]="menu"> -->
+    <a color="accent" [matMenuTriggerFor]="menu">
+      <mat-icon>menu</mat-icon>
+      </a>
+    <!-- </button> -->
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item (click)="navToProjects()">Projects</button>
+      <button mat-menu-item (click)="navToProfile()">Profile</button>
+    </mat-menu>
+  </div>
+  
+  
+  <div fxFlex="33" fxLayoutAlign="center center">
+    <h1 fxLayoutAlign="center center">
+      <i>{{title}}</i>
+    </h1>
+  </div>
+  <div fxFlex="33">
+
+  </div>
+</div>
